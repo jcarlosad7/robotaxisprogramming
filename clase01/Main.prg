@@ -12,6 +12,10 @@ Function main
 	P4 = XY(693, 421, 154, -4, -71, -162)
 	
 	SavePoints "P1"
+    'Posicion original'
+    Homeset 0,0,0,0,0,0
+    'Regresamos a la posición original'
+    Home
 	Go P0
    	Go P1
    	Go P2
